@@ -1,0 +1,59 @@
+{
+	"name": "eslint-config-mta",
+	"version": "1.0.0",
+	"description": "JavaScript Mta Style - ESLint Shareable Config",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint . --config=eslintrc.json",
+		"test": "npm run lint && tape test/*.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nayotta/eslint-config-mta.git"
+	},
+	"author": "nayotta-fe",
+	"keywords": [
+		"JavaScript Mta Style",
+		"check",
+		"checker",
+		"code",
+		"code checker",
+		"code linter",
+		"code mta",
+		"code style",
+		"enforce",
+		"eslint",
+		"eslintconfig",
+		"hint",
+		"jscs",
+		"jshint",
+		"lint",
+		"policy",
+		"quality",
+		"simple",
+		"mta",
+		"mta style",
+		"style",
+		"style checker",
+		"style linter",
+		"verify"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/nayotta/eslint-config-mta/issues"
+	},
+	"homepage": "https://github.com/nayotta/eslint-config-mta#readme",
+	"devDependencies": {
+		"eslint": "^7.32.0",
+		"eslint-plugin-import": "^2.24.0",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^5.1.0",
+		"tape": "^5.3.1"
+	},
+	"peerDependencies": {
+		"eslint": "^7.12.1",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^4.2.1 || ^5.0.0"
+	}
+}
