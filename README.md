@@ -9,3 +9,16 @@ An ESLint Shareable Config for JavaScript Mta Style.
 ```sh
 $ npm install eslint-config-mta
 ```
+
+## config
+
+add `mta` to .eslintrc file:
+
+```js
+{
+	extends: [
+		'mta',
+		// other extends
+	]
+}
+```
