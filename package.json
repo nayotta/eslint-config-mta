@@ -44,18 +44,18 @@
 	},
 	"homepage": "https://github.com/nayotta/eslint-config-mta#readme",
 	"devDependencies": {
-		"@types/eslint": "^8.4.1",
-		"@types/tape": "^4.13.2",
-		"eslint": "^8.13.0",
-		"eslint-plugin-import": "^2.25.4",
-		"eslint-plugin-n": "^15.1.0",
-		"eslint-plugin-promise": "^6.0.0",
-		"tape": "^5.5.2"
+		"@types/eslint": "^8.40.2",
+		"@types/tape": "^5.6.0",
+		"eslint": "^8.43.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-n": "^16.0.0",
+		"eslint-plugin-promise": "^6.1.1",
+		"tape": "^5.6.3"
 	},
 	"peerDependencies": {
 		"eslint": "^8.0.1",
-		"eslint-plugin-import": "^2.25.2",
-		"eslint-plugin-n": "^15.0.0",
-		"eslint-plugin-promise": "^6.0.0"
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-n": "^16.0.0",
+		"eslint-plugin-promise": "^6.1.1"
 	}
 }
